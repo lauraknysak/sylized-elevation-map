@@ -68,7 +68,7 @@ tl.to(".layer_18", 3.5, {
     {
       scale:1.04,
       xPercent:1.2,
-      yPercent:1.4,
+      yPercent:1.4,1
       squash:2,
       ease:Back.easeInOut.config(5),
       repeat: -1,
