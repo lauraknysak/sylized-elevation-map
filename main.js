@@ -76,6 +76,31 @@ tl.to(".layer_18", 3.5, {
     }
   );
 
+  TweenMax.from(
+    ".layer_4",
+    3.5,
+    {
+
+        scaleX:.9,
+   
+      squash:2,
+      ease:"myBounce",
+    transformOrigin:"center center",
+    }
+  );
+
+  TweenMax.to(
+    ".layer_4",
+    4.5,
+    {
+        scaleX: 1.1,
+   
+      ease:"myBounce-squash",
+      transformOrigin:"center center",
+      repeat: -1,
+      yoyo: true,
+    }
+  );
 
 
   
