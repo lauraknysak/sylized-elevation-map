@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lauraknysak/sylized-elevation-map/issues"
   },
-  "homepage": "https://github.com/lauraknysak/sylized-elevation-map#readme"
+  "homepage": "https://github.com/lauraknysak/sylized-elevation-map#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
