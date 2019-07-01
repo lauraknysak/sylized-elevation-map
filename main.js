@@ -1,8 +1,68 @@
-//just a comment 
+
+"#piece1"
+
+
+
+
+
+
+
 
 var tl = new TimelineMax({onComplete:function() {
     this.restart()}
 });
+
+
+TweenMax.to("#piece1", 10, {
+  scale: 1,
+  yPercent:-20.2,
+  xPercent:16.2,
+  repeat: -1,
+  yoyo: true,
+
+});
+TweenMax.to("#piece2", 10, {
+  scale: 1,
+  yPercent:35.2,
+
+  repeat: -1,
+  yoyo: true,
+
+});
+
+TweenMax.to("#piece3", 10, {
+  scale: 1,
+  yPercent:15.2,
+  xPercent:-5.2,
+  repeat: -1,
+  yoyo: true,
+
+});
+
+
+
+TweenMax.to("#purple", 10, {
+  scale: 1,
+  yPercent:-20.2,
+  xPercent:9.2,
+
+  repeat: -1,
+  yoyo: true,
+
+});
+
+
+TweenMax.to("#red", 10, {
+  scale: 1,
+  yPercent:-20.2,
+  xPercent:24.2,
+
+  repeat: -1,
+  yoyo: true,
+
+});
+
+
 
 TweenMax.to(".layer_18", 3.5, {
     scale: 1,
